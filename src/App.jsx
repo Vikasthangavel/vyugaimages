@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <h1>� Images Gallery</h1>
+        <h1>Images Gallery</h1>
         <p>Download your images</p>
       </div>
 
@@ -41,7 +41,7 @@ function App() {
                   onClick={() => downloadImage(image.filename)}
                   className="download-btn"
                 >
-                  ⬇️ Download
+                  Download
                 </button>
               </div>
             </div>
