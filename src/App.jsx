@@ -6,7 +6,8 @@ function App() {
     { name: 'Event1', filename: 'Event1.jpeg' },
     { name: 'Event2', filename: 'Event2.jpeg' },
     { name: 'Logo (JPG)', filename: 'logo.jpeg' },
-    { name: 'Logo (PNG)', filename: 'logo.png' }
+    { name: 'Logo (PNG)', filename: 'logo.png' },
+    { name: 'By Specially Abled', filename: 'By Specially Abled.jpeg' }
   ]
 
   const downloadImage = (filename) => {
