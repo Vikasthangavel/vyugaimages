@@ -7,8 +7,10 @@ function App() {
     { name: 'Event2', filename: 'Event2.jpeg' },
     { name: 'Logo (JPG)', filename: 'logo.jpeg' },
     { name: 'Logo (PNG)', filename: 'logo.png' },
-    { name: 'By Specially Abled', filename: 'By Specially Abled.jpeg' }
+    { name: 'By Specially Abled', filename: 'By Specially Abled.jpeg' },
+    { name: 'TALENT (1)', filename: 'TALENT (1).png' }
   ]
+
 
   const downloadImage = (filename) => {
     const link = document.createElement('a')
